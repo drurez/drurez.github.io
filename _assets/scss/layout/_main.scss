@@ -1,0 +1,15 @@
+.page-content {
+	padding-top: rhythm(2);
+
+	@include breakpoint($tablet){
+		padding-top: rhythm(3);
+	}
+
+	@include breakpoint($desktop){
+		padding-top: rhythm(3.5);
+	}
+
+	@include breakpoint($widescreen){
+		padding-top: rhythm(4.5);
+	}
+}

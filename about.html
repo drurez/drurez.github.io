@@ -1,0 +1,41 @@
+---
+layout: page
+title: About / Contact
+permalink: /about-contact/
+---
+
+<section class="article">
+	<div class="article__section-body">
+		<div class="article__content-block">
+			<h1 class="article__content-title">About me</h1>
+			<p class="article__content-detail">Hello! I’m Andrew — I enjoy coding and designing things. I’ve worked professionally in Seattle, WA for the past 5 years. My experience ranges from working as a designer for a boutique design firm to working as a member of a product team for an enterprise software company. I’ve created visual identities for founders and startups, as well as built websites for bloggers and young professionals. I have a traditional background in graphic design but I have tinkered with front-end web development ever since the early 2000's. You can read about <a href="#development">how I created this website</a> below.</p>
+			<p class="article__content-detail">In my spare time I enjoy wrenching on mountain bikes and riding the trails around Washington. I also enjoy playing guitar, working out, and spending as much time as I can with friends and family. Thanks for stopping by!</p>
+		</div>
+	</div>
+</section>
+
+<section class="article">
+	<div class="article__section-body">
+		<div class="article__content-block">
+			<h1 class="article__content-title" id="development">How I built this site</h1>
+			<p class="article__content-detail">I decided to build this site from scratch to sharpen my coding skills and to learn some new front-end web techniques. I went with <a href="https://jekyllrb.com/" rel="noopener noreferrer" target="_blank">Jekyll</a>, a static site generator, as the base for building this site. Jekyll itself is pretty simple to setup and use out of the box. It uses <a href="https://shopify.github.io/liquid/" rel="noopener noreferrer" target="_blank">Shopify’s Liquid Template Engine</a> for manipulating site data and page structure. I stripped out Jekyll’s default template and started from scratch building my own.</p>
+			<p class="article__content-detail">All of my CSS styles are written as SCSS partials. I recently learned about the <a href="https://en.bem.info/methodology/quick-start/" rel="noopener noreferrer" target="_blank">BEM methodology</a> for naming CSS classes, and have adopted that for all of the components I’ve built on this site. The styles are all written mobile first. To assist with this, I’m using <a href="http://oddbird.net/susy/" rel="noopener noreferrer" target="_blank">Susy</a> as my grid framework and <a href="http://breakpoint-sass.com/" rel="noopener noreferrer" target="_blank">Breakpoint</a> to handle media queries.</p>
+			<p class="article__content-detail">Font sizing was generated using <a href="http://www.modularscale.com/" rel="noopener noreferrer" target="_blank">Modular Scale</a>. I’m using the major-third (4:5) ratio for generating the type scale. The type is set with Proxima Nova.</p>
+			<p class="article__content-detail">I’m using a jQuery lightbox script called <a href="http://fancyapps.com/fancybox/3/" rel="noopener noreferrer" target="_blank">fancyBox</a> for the images on the <a href="{{ "/miscellaneous" | relative_url }}">Miscellaneous</a> page.</p>
+			<p class="article__content-detail">This site will continually serve as a sandbox for me to learn and play around with web development techniques, and of course, to showcase my professional work. <a href="https://github.com/drurez/portfolio" rel="noopener noreferrer" target="_blank">Check out the source code</a> for this site over on Github!</p>
+		</div>
+	</div>
+</section>
+
+<section class="article">
+	<div class="article__section-body">
+		<div class="article__content-block">
+			<h1 class="article__content-title" id="development">Contact</h1>
+			<p class="article__content-detail">
+				Email: <a href="mailto:andrew@andrewjuarez.com">andrew@andrewjuarez.com</a>
+				</br>
+				LinkedIn: <a href="https://www.linkedin.com/in/andrewjuarez/" rel="noopener noreferrer" target="_blank">linkedin.com/in/andrewjuarez/</a>
+			</p>
+		</div>
+	</div>
+</section>

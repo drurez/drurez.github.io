@@ -1,0 +1,26 @@
+.site-footer-wrapper {
+	@extend %clearfix;
+}
+
+.site-footer {
+	border-top: 1px solid rgba(0,0,0,.1);
+	@extend %clearfix;
+	color: $base-color-light;
+	font-size: ms(-2);
+	letter-spacing: .025rem;
+	margin-top: rhythm();
+	padding-top: rhythm(1.5);
+	padding-bottom: rhythm(1.5);
+	text-align: center;
+
+	// TABLET
+
+	@include breakpoint($tablet) {
+		text-align: left;
+		&__credits {
+			@include span(6 last);
+			text-align: right;
+	}
+		&__contact { @include span(6); }
+	}
+}

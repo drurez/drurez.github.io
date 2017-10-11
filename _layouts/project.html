@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="project">
+	<div class="hero hero--project-view">
+		<h1 class="hero__heading hero__heading--project-view">{{ page.title | escape }}</h1>
+	</div>
+	<div class="project__meta">
+	{% unless page.categories.size == 0 %}
+		<h3 class="project__categories project__categories--border">{{ page.categories | join: ', '}}</h3>
+	{% endunless %}
+		<p class="project__description">{{ page.description }}</p>
+	</div>
+	<div class="project__image-set">
+		{{ content }}
+	</div>
+</div>
+
+{% include projects.html %}

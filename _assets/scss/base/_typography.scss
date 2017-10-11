@@ -1,0 +1,30 @@
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, figure, blockquote, table ,hr {
+  margin: 0 0 rhythm(0) 0;
+}
+
+h1, .h1 { @include font-size(ms(6)) }
+h2, .h2 { @include font-size(ms(2)) }
+h3, .h3 { @include font-size(ms(2)) }
+h4, .h4 { @include font-size(ms(1)) }
+h5, .h5 { @include font-size(ms(0)) }
+h6, .h6 { @include font-size(ms(0)) }
+p { @include font-size(ms(0)) }
+
+// CUSTOM TYPE STYLES
+
+.page-title { font-family: 'proxima-nova-thin'; }
+
+ code { 
+ 	background: rgba($base-color, 0.05);
+ 	border-radius: 2px;
+ 	color: $base-color;
+ 	display: inline; 
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: ms(-1);
+  letter-spacing: 0.03rem;
+  padding: 2px 3px;
+}
+
+strong {
+	font-family: 'proxima-nova-semibold'
+}

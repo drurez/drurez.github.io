@@ -1,0 +1,54 @@
+.project {
+	@extend %clearfix;
+	&__meta {
+		@extend %clearfix;
+		margin-bottom: rhythm(2);
+	}
+	&__categories {
+		font-family: 'proxima-nova-regular-italic';
+		font-size: ms(-1);
+		color: rgba($base-color, 0.5);
+		letter-spacing: 0.03rem;
+		margin-bottom: 0;
+		&--border {
+			border-bottom: 1px solid rgba($base-color, 0.15);
+			padding-bottom: rhythm();
+		}
+	}
+	&__description { margin-top: rhythm(); }
+	&__image-set { margin-bottom: rhythm(2); }
+	&__item {
+		@extend %clearfix;
+		margin-bottom: rhythm();
+		&:last-child { margin-bottom: 0; }
+		&--margin-none { margin-bottom: 0; }
+	}
+	&__secondary-info {
+		border-bottom: 1px solid rgba($base-color, 0.15);
+		margin: rhythm(2) auto;
+		text-align: center;
+		width: span(4 of 4);
+	}
+	&__secondary-info-title {
+		color: $base-color-light;
+		font-size: ms(3);
+		font-family: 'proxima-nova-thin';
+	}
+
+	// TABLET
+
+	@include breakpoint($tablet) {
+		&__meta {  margin-bottom: rhythm(3) }
+		&__description {  @include span(6); }
+		&__image-set {
+			margin-bottom: rhythm(5);
+			@include span(12);
+		}
+		&__item { margin-bottom: rhythm(3); }
+		&__secondary-info {
+			margin: rhythm(3) auto;
+			width: span(7);
+		}
+		&__secondary-info-title { font-size: ms(4); }
+	}
+}

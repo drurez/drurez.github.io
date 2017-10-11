@@ -1,0 +1,19 @@
+.figure {
+	margin-bottom: rhythm(2);
+	width: auto;
+	&--full-width { @include span(12); }
+	&--no-margin { margin-bottom: 0; }
+	img {
+			display: block;
+			height: auto;
+			margin: auto;
+			max-width: 100%;
+		}
+
+	// TABLET
+	@include breakpoint($tablet) {
+		&--half-width { @include span(6 of 12 0); } // span 6 of 12 no gutter
+		&--half-width-gutters { @include span(6 of 12);	}
+		&--half-width-gutters-last { @include span(6 of 12 last);	}
+	}
+}

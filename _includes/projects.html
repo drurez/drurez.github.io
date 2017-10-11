@@ -1,0 +1,16 @@
+<div class="gallery">
+	<h2 class="gallery__title">Recent Work</h2>
+	<ul class="gallery__collection">
+	{% for project in site.projects %}
+		<li class="gallery__item">
+			<a href="{{ project.url }}">
+				{% for image in project.image %}
+					{% image '{{project.image }}' class:'gallery__image' %}
+				{% endfor %}
+			</a>
+			<span class="gallery__image-title">{{ project.title }}</span>
+			<span class="gallery__image-meta">{{ project.categories | join: ', ' }}</span>
+		</li>
+	{% endfor %}
+	</ul>
+</div>

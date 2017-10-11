@@ -1,0 +1,16 @@
+.logos {
+	.figure { margin-bottom: rhythm(8); }
+	.project__item:last-child .figure { margin-bottom: 0; }
+
+	// DESKTOP
+	
+	@include breakpoint($desktop) {
+		.figure { margin-bottom: rhythm(10); }
+	}
+
+	// WIDESCREEN
+	
+	@include breakpoint($widescreen) {
+		.figure { margin-bottom: rhythm(12); }
+	}
+}
