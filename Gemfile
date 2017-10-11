@@ -23,3 +23,5 @@ end
 gem 'modular-scale'
 gem "susy"
 gem "breakpoint"
+gem "uglifier"
+

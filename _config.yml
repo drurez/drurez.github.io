@@ -1,3 +1,4 @@
+environment: production
 title: Andrew Juarez
 email: andrew@andrewjuarez.com
 description: Web and Graphic Design Portfolio of Andrew Juarez
@@ -11,19 +12,21 @@ plugins:
   - jekyll-assets
   - breakpoint
   - susy
+  - uglifier
 
 # Asset Pipeline
 assets:
   compress:
     css: true
     js: true
+  digest: true
   sources:
     - _assets
     - _assets/scss
     - _assets/fonts
     - _assets/images
     - _assets/js
-  digest: false
+
 
 # Collections
 collections:

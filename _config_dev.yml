@@ -1,0 +1,13 @@
+environment: development
+# Asset Pipeline
+assets:
+  compress:
+    css: false
+    js: false
+  sources:
+    - _assets
+    - _assets/scss
+    - _assets/fonts
+    - _assets/images
+    - _assets/js
+  digest: false

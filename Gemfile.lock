@@ -8,6 +8,7 @@ GEM
       sassy-maps (< 1.0.0)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
+    execjs (2.7.0)
     extras (0.3.0)
       forwardable-extended (~> 2.5)
     fastimage (2.1.0)
@@ -60,6 +61,8 @@ GEM
       rack (> 1, < 3)
     susy (2.2.12)
       sass (>= 3.3.0, < 3.5)
+    uglifier (3.2.0)
+      execjs (>= 0.3.0, < 3)
 
 PLATFORMS
   ruby
@@ -70,6 +73,7 @@ DEPENDENCIES
   jekyll-assets
   modular-scale
   susy
+  uglifier
 
 BUNDLED WITH
    1.15.4
