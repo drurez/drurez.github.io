@@ -9,6 +9,8 @@ github_username:  drurez
 markdown: kramdown
 plugins:
   - jekyll-assets
+  - breakpoint
+  - susy
 
 # Asset Pipeline
 assets:
