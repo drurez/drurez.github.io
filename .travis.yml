@@ -17,7 +17,7 @@ after_success:
   - cd _site
   - git init
   - git config user.name "Andrew Juarez"
-  - git config user.email "andrewjuarez@hotmaill.com"
+  - git config user.email "andrewjuarez@hotmail.com"
   - git remote add upstream "https://$GH_TOKEN@github.com/drurez/drurez.github.io.git"
   - git fetch upstream
   - git reset upstream/master
