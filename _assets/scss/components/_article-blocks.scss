@@ -24,7 +24,7 @@
 	@include breakpoint($tablet) {
 		width: span(9);
 		margin: 0 auto;
-		&__content-block { margin-bottom: rhythm(3); }
+		// &__content-block { margin-bottom: rhythm(3); }
 		&__content-detail {
 			@include span(12);
 			@include break;

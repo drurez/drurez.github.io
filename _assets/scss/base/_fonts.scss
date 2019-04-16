@@ -1,31 +1,31 @@
 @font-face {
     font-family: 'proxima-nova-thin';
-    src: url(asset_path('fonts/proximanova-thin-webfont.woff2')) format('woff2'),
-         url(asset_path('fonts/proximanova-thin-webfont.woff')) format('woff');
+    src: asset_url('fonts/proximanova-thin-webfont.woff2') format('woff2'),
+         asset_url('fonts/proximanova-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'proxima-nova-regular';
-    src: url(asset_path('fonts/proximanova-regular-webfont.woff2')) format('woff2'),
-         url(asset_path('fonts/proximanova-regular-webfont.woff')) format('woff');
+    src: asset_url('fonts/proximanova-regular-webfont.woff2') format('woff2'),
+         asset_url('fonts/proximanova-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'proxima-nova-regular-italic';
-    src: url(asset_path('fonts/proximanova-regular-italic-webfont.woff2')) format('woff2'),
-         url(asset_path('fonts/proximanova-regular-italic-webfont.woff')) format('woff');
+    src: asset_url('fonts/proximanova-regular-italic-webfont.woff2') format('woff2'),
+         asset_url('fonts/proximanova-regular-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'proxima-nova-semibold';
-    src: url(asset_path('fonts/proximanova-semibold-webfont.woff2')) format('woff2'),
-         url(asset_path('fonts/proximanova-semibold-webfont.woff')) format('woff');
+    src: asset_url('fonts/proximanova-semibold-webfont.woff2') format('woff2'),
+         asset_url('fonts/proximanova-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -33,16 +33,16 @@
 
 @font-face {
     font-family: 'proxima-nova-bold';
-    src: url(asset_path('fonts/proximanova-bold-webfont.woff2')) format('woff2'),
-         url(asset_path('fonts/proximanova-bold-webfont.woff')) format('woff');
+    src: asset_url('fonts/proximanova-bold-webfont.woff2') format('woff2'),
+         asset_url('fonts/proximanova-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'proxima-nova-black';
-    src: url(asset_path('fonts/proximanova-black-webfont.woff2')) format('woff2'),
-         url(asset_path('fonts/proximanova-black-webfont.woff')) format('woff');
+    src: asset_url('fonts/proximanova-black-webfont.woff2') format('woff2'),
+         asset_url('fonts/proximanova-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

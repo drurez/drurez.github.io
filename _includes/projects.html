@@ -5,7 +5,7 @@
 		<li class="gallery__item">
 			<a href="{{ project.url }}">
 				{% for image in project.image %}
-					{% image '{{project.image }}' class:'gallery__image' %}
+					{% asset '{{project.image }}' class=gallery__image %}
 				{% endfor %}
 			</a>
 			<span class="gallery__image-title">{{ project.title }}</span>
